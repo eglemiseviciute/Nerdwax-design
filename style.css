@@ -1,0 +1,1710 @@
+/* dekstop */
+/* first page */
+.title{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.title h1{
+    margin-top: -0.938rem;
+    font-size: 3.125rem;
+    
+}
+.title p{
+    margin-top: -3.75rem;
+    font-weight: 700;
+
+}
+.first-img{
+    width: 49.375rem;
+    height: 37.875rem;
+    margin-left: -1.563rem;
+}
+
+.content{
+    display: flex;
+    margin-top: 2.188rem;
+}
+
+.content-text{
+    margin-left: 2.188rem;
+}
+
+.star{
+    color: rgb(230, 196, 7);
+}
+.star, .ratings p{
+    display: inline;
+    
+}
+.cla{
+    display: flex;
+    flex-direction: column;
+}
+.features{
+    display: inline-flex;
+    align-items: center;
+    margin-top: -0.938rem;
+    margin-bottom: -0.188rem;
+
+}
+.features p{
+    padding-left: 0.938rem;
+    margin-top: 0.65rem ;
+}
+ .number{
+    font-weight: 900;
+   margin-left: -0.7rem;
+   padding-right: 0.938rem;
+  }
+.price{
+    margin-top: 0.625rem;
+    border-top-style: solid;
+    border-width:thin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.shipping{
+    margin-top: -0.625rem;
+    font-size: 0.813rem!important;
+}
+
+.new-price{
+padding-left: 0.625rem;
+color:rgb(230, 196, 7);
+font-weight: 900;
+font-size: 1.25rem;
+}
+.old-price{
+    padding-left: 0.625rem;
+    text-decoration:line-through;
+}
+.btn{
+    background-color: rgb(231, 213, 18);
+    color: white;
+    border-style: none;
+    padding-top: 0.938rem;
+    padding-bottom: 0.938rem;
+    padding-left: 9.25rem ;
+    padding-right: 9.25rem;
+    border-radius: 0.313rem;
+    font-size: 1rem;
+    font-weight: 900;
+    box-shadow: 1px 1px 10px rgb(230, 196, 7);
+   
+}
+/* first page end */
+
+/* more detaile page */
+
+.text-title{
+    display: flex;
+    justify-content: center;
+    border-bottom: solid black;
+    border-width: thin;
+    margin-left: 9.6rem;
+    width: 75vw;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+
+.btns:hover{
+    color: rgb(230, 196, 7);
+}
+.btns{
+    background-color: white;
+    border: unset;
+    font-weight: 900;
+    padding-left: 0.9rem;
+   
+}
+.star, .product-ratings p{
+    display: inline;
+    
+}
+/* nerdwax */
+.nerdwaxs{
+    color:rgb(230, 196, 7);
+}
+.nerdwax{
+    width: 45.375rem;
+    height: 35.875rem;
+    margin-left: 10rem;
+   
+}
+
+.product-details-info{
+    margin-top: 5rem;
+    margin-left: -18.75rem;
+}
+.product-details,.cloth-product-details,.clip-product-details,.magic-product-details{
+    display: flex;
+    justify-content: center;
+}
+
+.details-description1{
+    margin-top: 1.5rem;
+    
+}
+.details-description4{
+    margin-top: 1.3rem;
+    
+}
+.details-description5,.magic-description3{
+    padding-top: 0.05rem;
+    font-weight: 800;
+    
+}
+
+/* magic drops */
+.magic-drops{
+    width: 45.375rem;
+    height: 25.875rem;
+    margin-left: 10rem;
+   
+}
+.magic-product-details{
+    margin-top: 3rem;
+}
+.magic-details-info{
+    display: unset;
+    margin-top: 7rem;
+    margin-left: -18.75rem;
+}
+.magic-description1{
+margin-top: 2.5rem;
+}
+
+/* clip product style */
+.clip-product-details{
+    margin-top: 3rem;
+}
+.clip{
+    width: 40.375rem;
+    height: 18.875rem;
+    margin-left: 10rem;
+   
+}
+.clip-details-info{
+    display: unset;
+    margin-top: 4rem;
+    margin-left: -16.75rem;
+}
+.clip-description1{
+margin-top: 1.5rem;
+}
+
+/* cloth */
+.cloth-product-details{
+    
+    margin-top: -2rem;
+}
+.cloth{
+    display: unset;
+    width: 50.375rem;
+    height: 25.875rem;
+    margin-left: 10rem;
+   
+}
+.cloth-details-info{
+    display: unset;
+    margin-top: 4rem;
+    margin-left: -14.75rem;
+}
+.cloth-description1{
+margin-top: 1.2rem;
+}
+.cloth-description3{
+    margin-top: 1.2rem;
+    font-weight: 800;
+    }
+
+
+
+   /* do not show in desktop size */
+   .nerdwa,.magic,.cli,.clot{
+    margin-top: -5rem;
+    visibility: hidden;
+   }
+    .small-product-details{
+    display: none;
+   }
+   .small-text-title{
+    display: none; 
+ }
+.small-button-container{
+   display: none;
+
+}
+.butns,.butns1{
+ display: none;
+}
+
+.nav-btn{
+display: none;
+} 
+
+.small-star, .small-product-ratings p{
+    display: none;
+}
+/* nerdwax */
+.small-nerdwax{
+   display: none;
+}
+
+.small-product-details-info,.small-cloth-product-details,.small-clip-product-details{
+   display: none;
+}
+.small-product-details{
+    display:none;
+}
+.small-nerdwax-description1,.small-magic-description1,.small-cloth-description1,.nerdwaxss,.magicss,.clipss,.clothss{
+  display: none;
+} 
+/* magical drops */
+.small-magic-drops{
+  display:none;
+    
+}
+.small-magic-details-info{
+    display: none;
+    
+}
+
+/* then click buttons to show right product info */
+
+.remove .product-details-info{
+    display: none;
+}
+.remove .nerdwax{
+    display: none;
+}
+
+.magic-details-info{
+    display:none;
+}
+.magic-drops{
+    display: none;
+}
+.show-text .magic-details-info{
+    display:unset;
+
+}
+.show-text .magic-drops{
+    display: unset;
+}
+.clip-details-info{
+    display: none;
+}
+.clip{
+    display: none;
+}
+
+.show-text .clip-details-info{
+display: unset;
+}
+
+.show-text .clip{
+    display: unset;
+    }
+
+.cloth-details-info{
+    display:none;
+}
+
+.cloth{
+    display: none;
+}
+
+.show-text .cloth-details-info{
+    display:unset;
+   
+}
+.show-text .cloth{
+    display: unset;
+    
+} 
+
+
+/* dekstop end */
+/* pakeist reik paveiksliukuskad butu kaip dideliam ekrane bet po viena */
+@media only screen and (max-width: 768px){
+    /* first page */
+    .first-img{
+       width:  60.45rem !important ;
+       height: 45.625rem !important;
+      margin-left: -12.9rem !important;
+      
+   }
+   
+     .info{
+       background-color:rgb(230, 196, 7);
+    width: 45.2rem;
+       padding-left: 2rem;
+       color: white;
+       margin-left: -2rem;
+       width: 46.4rem!important;
+   }
+   .info2{
+       padding-left: 2rem;
+       margin-left: -2rem
+   }
+   
+   .content{
+       display: flex;
+       flex-direction: column;
+   }
+   
+   .content-text{
+       margin-left:-0.938rem;
+   }
+   .content-text-title{
+       font-size: 1.2rem !important;
+       margin-left: 2rem;
+   }
+   .star{
+       color: rgb(255, 255, 255);
+       font-size: 0.8rem;
+   }
+   .ratings{
+       margin-left: 2rem;
+   }
+   .ratings p{
+       font-size: 1.2rem ;
+   }
+   
+   .features {
+       font-size: 1.2rem ;
+       margin-left: 2rem;
+   }
+   .features p{
+       padding-left: 0.625rem;
+     font-size:1.2rem !important;
+   }
+   .price{
+       margin-top: 0.625rem;
+       border-top-style: solid;
+       border-width:thin;
+       width: 90vw !important;
+       margin-left: 0.7rem !important;
+   }
+   .price p{
+       font-size: 1.525rem;
+   }
+   
+   .shipping{
+       font-size: 1rem !important;
+   }
+   
+   .new-price{
+   padding-left: 0.625rem;
+   color:rgb(230, 196, 7);
+   font-weight: 900;
+   font-size: 2.125rem;
+   }
+   .old-price{
+       padding-left: 6px;
+       text-decoration:line-through;
+       font-size: 1.525rem;
+   }
+   .btn{
+       background-color: rgb(230, 196, 7);
+       color: white;
+       border-style:none;
+       padding-top: 0.825rem;
+       padding-bottom: 0.825rem;
+       padding-left: 12rem ;
+       padding-right: 12rem;
+       border-radius: 5px;
+       font-size: 2rem !important;
+       font-weight: 900;
+       box-shadow: 1px 1px 10px rgb(230, 196, 7);       
+   }
+   
+   /* first page end*/
+   
+   /* second page */
+   /* more detaile page */
+   
+   .nerdwa,.magic,.cli,.clot{
+      margin-top: 1.5rem;
+       visibility: visible;
+   font-size: 1.3rem;
+     margin-left:5rem ;
+      }
+      
+   .small-text-title{
+   display: flex;
+   justify-content: center;
+   border-bottom: solid black;
+   border-width: thin;
+   width: 90vw;
+       margin-left: 1.9rem;
+       font-size: 1.5rem;
+   
+   }
+   
+   .small-button-container{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+    background-color: white;
+   position: absolute;
+   z-index: 999;
+   }
+   
+   .butns-cloths,.butns-clips,.butns-magics,.butns-nerdwaxs{
+   display: flex;
+   flex-direction:column;
+   align-items: start;
+   background-color: white;
+   border: unset;
+   font-weight: 700;
+   
+   }
+   
+   /* navbar */
+   .nav-title{
+   height: 0;
+   overflow: hidden;
+   transition: all 0.5s;
+   }
+   .show-title{
+   height:6rem;
+   }
+   
+   .nav-btn{
+   margin-top: 0.1rem;
+   border-radius: 50%;
+   display: flex;
+   flex-direction: column;
+   height: 50%;
+   border-color: rgb(231, 213, 18);
+   background-color: white;
+   margin-left: 23rem;
+   
+   }
+   .up-arrow,.down-arrow,.small-star,.butns-nerdwaxs,.nerdwa,.magic{
+   color: rgb(231, 213, 18);
+   }
+   
+   
+   
+   .small-star, .small-product-ratings p{
+   display: inline;
+   
+   }
+   /* nerdwax */
+   
+   .small-nerdwax{
+   display: unset;
+   width: 14rem;
+   height: 35.875rem;
+   margin-left: -5.3rem!important;
+   
+   }
+   
+   .small-product-details-info{
+   display: unset;
+   margin-top: 3rem;
+   margin-left: 3rem;
+   font-size: 1.1rem;
+   
+   }
+   .small-product-details,.small-magic-product-details,.small-clip-product-details,.small-cloth-product-details{
+   margin-top: 2rem;
+   display: flex;
+   justify-content: center;
+   }
+   .small-nerdwax-description1,.small-magic-description1,.small-cloth-description1{
+   display: unset;
+   font-weight: 800;
+   font-size: 0.8rem;
+   }
+   
+   /*  end nerwax  */
+   /* magical drops */
+   
+   .small-magic-drops{
+   display: unset;
+   width: 12rem;
+   height: 25.875rem;
+   
+   }
+   .small-magic-details-info{
+   display: unset;
+   margin-top: 1rem;
+   margin-left: 1rem;
+   font-size: 1.1rem;
+   
+   }
+   /*  end magic-drops  */
+   /* clip */
+   .cli{
+   margin-top: -2.5rem;
+   margin-bottom: 3rem;
+   color:rgb(231, 213, 18)
+   }
+   .small-clip-product-details{
+   margin-top: -1rem;
+   margin-left:-5rem;
+   }
+   .small-clip-details-info{
+   margin-left: -15rem;
+   font-size: 1.1rem;
+   }
+   .small-clip{
+   display: unset;
+   width: 25rem;
+   height: 15.875rem;
+   margin-left: 18rem!important;
+   margin-top: -1rem;
+   position: absolute;
+   z-index: -1;
+   }
+   
+   /* end clip  */
+   /* cloth */
+   .clot{
+   margin-top: -0.5rem;
+   color: rgb(231, 213, 18);
+   }
+
+   .small-cloth-product-details-text{
+    font-size: 1.1rem;
+   margin-left: 2rem;
+   margin-top: 2rem;
+    
+   }
+   .small-cloth{
+   width: 18rem;
+   height: 22rem;
+   margin-left: -2.5rem!important;
+   margin-top: 2.5rem;
+   }
+   /* end cloth   */
+   /* do not show on small size device */
+   .more-details{
+   display: none;
+   }
+   .nerdwax{
+      display: none;
+      
+   }
+   .product-details-info{
+      display: none;
+   }
+   .product-details{
+       display: none;
+   }
+   .details-description1{
+      display: none;
+       
+   }
+   .details-description4{
+       display: none;
+       
+   }
+   .details-description5,.magic-description3{
+     display: none;  
+   }
+   /* magic drops */
+  .magic-drops{
+    display: none;
+  }
+   .magic-description1{
+   display: none;
+   }
+   /* clip product style */
+   .clip{
+    display: none;
+      
+   }
+   .clip-details-info{
+      display: none;
+   }
+   .clip-description1{
+   display: none;
+   }
+   
+   /* cloth */
+   .cloth{
+       display: none;
+   }
+   .cloth-details-info{
+       display: none;
+   }
+   .cloth-description1{
+   display: none;
+   }
+   .cloth-description3{
+      display: none;
+       }
+       .cloth-product-details{
+           display: none;
+       }
+   /* end do not show 12/13 iphone pro mobile */
+   
+       /* then button is clicked show right product info in 12/13 iphone pro mobile */
+   
+   .remove{
+   display: none;
+   }
+   .show-title .down-arrow{
+   display: none;
+   }
+   .up-arrow{
+   display: none;
+   }
+   .show-title .up-arrow{
+   display:unset;
+   }
+       .remove .small-nerdwax{
+           display: none;
+       }
+       .remove .small-product-details-info{
+           display: none;
+       }
+       .small-clip-details-info{
+           display:none;
+       }
+       .small-clip{
+           display: none;
+       }
+       .show-text .small-clip-details-info{
+           display:unset;
+       }
+       .show-text .small-clip{
+           display: unset;
+       }
+       .small-magic-details-info{
+           display: none;
+       }
+       .small-magic-drops{
+   display:none ;
+       }
+       .show-text .small-magic-details-info{
+           display: unset;
+       }
+       .show-text .small-magic-drops{
+   display:unset ;
+       }
+       .small-cloth-product-details-text{
+           display: none;
+       }
+       .small-cloth{
+           display: none;
+       }
+       .show-text .small-cloth-product-details-text{
+           display: unset;
+       }
+       .show-text .small-cloth{
+           display: unset;
+       }
+   /*  end show right product info  */
+   }
+
+   @media only screen and (max-width: 600px){
+    .first-img{
+
+        width:  49.9rem !important ;
+        height: 40.625rem !important;
+       margin-left: -12.9rem !important;
+       
+    }
+    .info{
+        width: 35.8rem!important;
+    }
+    .price{
+        margin-left: 0.2rem!important;
+    }
+    .btn{
+        padding-top: 0.825rem;
+        padding-bottom: 0.825rem;
+        padding-left: 12rem ;
+        padding-right: 12rem;
+        border-radius: 5px;
+        font-size: 2rem!important;  
+    }
+    /* second page */
+    .small-text-title{
+        margin-left: 1.35rem!important;
+    }
+    .nav-btn{
+        margin-left: 14rem;
+    }
+    .nerdwa,.magic,.cli,.clot{
+     visibility: visible;
+     font-size: 1.3rem;
+       margin-left:3rem ;
+        }
+        /* nerdwax */
+    .small-nerdwax{
+        display: unset;
+        width: 14rem;
+        height: 35.875rem;
+        margin-left: -0.5rem!important;
+        
+        }
+    .small-product-details-info{
+        font-size: 1rem;
+margin-left: 0.5rem;
+    }
+    /* magic drops */
+    .small-magic-drops{
+        display: unset;
+        width: 11.5rem;
+        height: 25.875rem;
+        }
+    .small-magic-details-info{
+        font-size: 1rem;
+    }
+    /* clip */
+    .small-clip{
+        display: unset;
+        width: 25rem;
+        height: 15.875rem;
+        margin-left: 6rem;
+        margin-top: 1rem!important;
+        position: absolute;
+        z-index: -1;
+        }
+
+    .small-clip-details-info{
+        margin-left: -11rem!important;
+        font-size: 1rem;
+        }
+        /* cloth */
+        .small-cloth{
+            width: 18rem;
+            height: 24rem;
+            margin-left: -0.5rem!important;
+            margin-top: 2.5rem;
+            }
+        .small-cloth-product-details-text{
+            font-size: 1rem;
+            margin-left: 0.5rem;
+        }
+        .small-clip,.small-magic-drops{
+            display: none;
+        }
+   }
+
+    @media only screen and (max-width: 430px) {
+        /* first page */
+     .first-img{
+         width:35.7rem !important;
+         height: 23.625rem !important;
+         margin-left: -9.4rem !important;
+        
+     }
+     
+       .info{
+         background-color:rgb(230, 196, 7);
+      width: 27.1rem!important;
+         padding-left: 2rem;
+         color: white;
+         margin-left: -4rem;
+     }
+     .info2{
+         padding-left: 2rem;
+         margin-left: -3.9rem
+     }
+     
+     .content{
+         display: flex;
+         flex-direction: column;
+     }
+     
+     .content-text{
+         margin-left:-0.938rem;
+     }
+     .content-text-title{
+         font-size: 1rem!important;
+     }
+     .star{
+         color: rgb(255, 255, 255);
+         font-size: 0.8rem;
+     }
+     .ratings p{
+         font-size: 0.8rem ;
+     }
+    
+     .features {
+         font-size: 0.8rem ;
+     }
+     .features p{
+         padding-left: 0.625rem;
+       font-size:1rem !important;
+     }
+     .price{
+         margin-top: 0.625rem;
+         border-top-style: solid;
+         border-width:thin;
+         width: 87vw !important;
+         margin-left: -0.2rem!important;
+     }
+     
+     .shipping{
+         font-size: 0.625rem;
+     }
+     
+     .new-price{
+     padding-left: 0.625rem;
+     color:rgb(230, 196, 7);
+     font-weight: 900;
+     font-size: 1.5rem;
+     }
+     .old-price{
+         padding-left: 6px;
+         text-decoration:line-through;
+         font-size: 1.2rem;
+     }
+     .btn{
+         background-color: rgb(230, 196, 7);
+         color: white;
+         border-style:none;
+         padding-top: 0.625rem;
+         padding-bottom: 0.625rem;
+         padding-left: 80px ;
+         padding-right: 80px;
+         border-radius: 5px;
+         font-size: 0.925rem!important;
+         font-weight: 900;
+         box-shadow: 1px 1px 10px rgb(230, 196, 7);       
+     }
+ 
+ /* first page end*/
+   
+     /* second page */
+     /* more detaile page */
+    
+     .nerdwa,.magic,.cli,.clot{
+        margin-top: 1.5rem !important;
+         visibility: visible;
+       margin-left:1.5rem ;
+       font-size: 1rem;
+        }
+        .clot{
+            margin-top: -0.5rem!important;
+        }
+       .cli{
+        margin-top: -2.5rem!important;
+       }
+ .small-text-title{
+     display: flex;
+     justify-content: center;
+     border-bottom: solid black;
+     border-width: thin;
+    width: 87vw;
+         margin-left: 1rem!important;
+         font-size: 1rem;
+ }
+ 
+ .small-button-container{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+      background-color: white;
+     position: absolute;
+     z-index: 999;
+ }
+ 
+ .butns-cloths,.butns-clips,.butns-magics,.butns-nerdwaxs{
+     display: flex;
+     flex-direction:column;
+   align-items: start;
+     background-color: white;
+     border: unset;
+     font-weight: 700;
+     font-size: 0.8rem!important;
+     width: 20rem;
+    
+ }
+ 
+ /* navbar */
+ .nav-title{
+     height: 0;
+     overflow: hidden;
+     transition: all 0.5s;
+ }
+ .show-title{
+     height:6rem;
+ }
+ 
+ .nav-btn{
+     margin-top: 0.1rem;
+     border-radius: 50%;
+     display: flex;
+     flex-direction: column;
+     height: 50%;
+     border-color: rgb(231, 213, 18);
+     background-color: white;
+     margin-left: 1rem!important;
+ }
+/* nerdwax */
+   
+.small-nerdwax{
+    display: unset;
+    width: 12rem;
+    height: 30.875rem;
+    margin-left: -0.9rem!important;
+    }
+    
+    .small-product-details-info{
+    display: unset;
+    margin-top: 3rem;
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    
+    }
+   .small-magic-drops{
+    width: 12rem;
+    height: 22.875rem;
+   }
+   /* magic drops */
+    .small-magic-details-info{
+        display: unset;
+        margin-top: 3rem;
+        margin-left: 0.5rem;
+        font-size: 1rem;
+        
+        }
+        .small-magic-details-info,.small-magic-drops{
+            display: none;
+            }
+/* clip */
+.small-clip{
+    width: 20rem;
+    height: 13.875rem;
+    margin-top: 4rem!important;
+    margin-left: 10rem!important;
+}
+.small-clip-details-info{
+    font-size: 1rem;
+    margin-left: -3rem!important;
+}
+.small-cloth{
+    width: 18rem;
+    height: 20rem;
+    margin-left: -0.5rem!important;
+    margin-top: 1rem;
+    }
+    .small-cloth-product-details-text{
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+    }
+    @media only screen and (max-width: 414px){
+        .first-img{
+            width: 34.2rem !important;
+            height: 23.625rem ;
+            margin-left: -8.85rem !important ;
+        }
+        .info{
+         width: 26.2rem;
+        }
+        .price{
+            margin-left: -0.1rem!important;
+        }
+        .small-nerdwax,.small-cloth{
+            margin-left:-1rem!important;
+        }
+        .small-clip{
+            margin-top: 3rem!important;
+            margin-left: 11rem!important;
+        }
+        .small-text-title{
+            margin-left: 1.05rem!important;
+        }
+        .small-clip-details-info{
+            margin-left: -2.5rem!important;
+        }
+    }
+    @media only screen and (max-width: 412px){
+        .title{
+            margin-left: -1.5rem!important;
+        }
+        .first-img{
+            width: 33.8rem !important;
+            height: 23.625rem ;
+            margin-left: -8.5rem !important ;
+        }
+        .info{
+         width: 26.1rem!important;
+        }
+        .price{
+            margin-left: -0.1rem!important;
+        }
+        .small-text-title{
+            margin-left: 1rem!important;
+        }
+        .small-clip-details-info{
+            margin-left: -1.5rem;
+        }
+    }
+     /* iphone 13/ 12pro */
+     
+
+@media only screen and (max-width: 390px) {
+    /* first page */
+ .first-img{
+     width: 32.8rem !important;
+     height: 23.625rem ;
+     margin-left: -8.9rem !important ;
+    
+ }
+ .info{
+     background-color:rgb(230, 196, 7);
+  width: 24.7rem!important;
+     padding-left: 2rem;
+     color: white;
+ }
+ .info2{
+     padding-left: 2rem;
+ }
+ 
+ .content{
+     display: flex;
+     flex-direction: column;
+ }
+ 
+ .content-text{
+     margin-left:-0.938rem;
+ }
+ .content-text-title{
+     font-size: 0.95rem !important;
+ }
+ .star{
+     color: rgb(255, 255, 255);
+     font-size: 0.7rem !important;
+ }
+ .ratings p{
+     font-size: 0.8rem !important;
+ }
+
+ .features {
+     font-size: 0.8rem;
+ }
+ .features p{
+     padding-left: 0.625rem;
+     
+ }
+ .price{
+     margin-top: 0.625rem;
+     border-top-style: solid;
+     border-width:thin;
+     width: 85vw;
+     margin-left: -0.2rem;
+ }
+ 
+ .shipping{
+     font-size: 0.4rem;
+ }
+ 
+ .new-price{
+ padding-left: 0.625rem;
+ color:rgb(230, 196, 7);
+ font-weight: 900;
+ font-size: 1.5rem;
+ }
+ .old-price{
+     padding-left: 6px;
+     text-decoration:line-through;
+ }
+ .btn{
+     background-color: rgb(230, 196, 7);
+     color: white;
+     border-style:none;
+     padding-top: 0.625rem;
+     padding-bottom: 0.625rem;
+     padding-left: 80px ;
+     padding-right: 80px;
+     border-radius: 5px;
+     font-size: 0.925rem;
+     font-weight: 900;
+     box-shadow: 1px 1px 10px rgb(230, 196, 7);       
+ }
+ .nav-btn{
+    margin-left: 0.5rem!important;
+ }
+ .nerdwa,.magic,.cli,.clot{
+     visibility: visible;
+   margin-left:1.5rem ;
+   font-size: 1rem!important;
+    }
+.clot{
+    font-size: 0.9rem!important;
+}
+/* nerdwax */
+   
+.small-nerdwax{
+    display: unset;
+    width: 12rem!important;
+    height: 24.875rem!important;
+    margin-left: -0.9rem;
+    }
+    
+    .small-product-details-info{
+    display: unset;
+    margin-top: 1.5rem;
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    
+    }
+    /* nerdwax end */
+     /* magic drops */
+   .small-magic-drops{
+    width: 10rem;
+    height: 18.875rem;
+   }
+    .small-magic-details-info{
+        display: unset;
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        font-size: 1rem;
+        
+        }
+        .small-magic-details-info{
+            display: none;
+            }
+            /* magic drops end */
+/* clip */
+.small-clip{
+    width: 18rem;
+    height: 13.875rem;
+}
+.small-clip-details-info{
+    font-size: 1rem;
+    margin-left: 0.1rem;
+}
+/* end clip */
+/* cloth */
+.small-cloth{
+    width: 15rem;
+    height: 15rem;
+    margin-left: -0.5rem;
+    margin-top: 1rem;
+    }
+    .small-cloth-product-details-text{
+        font-size: 1rem;
+        margin-top: 1rem;
+        margin-left: 0.3rem;
+    }
+    /* end cloth */
+
+ }
+ @media only screen and (max-width: 384px){
+     .title h1{
+         font-size: 2.5rem; 
+     }
+     .title p{
+         margin-top: -3.45rem;
+     }
+     .first-img{
+        width: 30.35rem !important;
+        height: 25.625rem  ;
+        margin-left: -6.8rem !important;
+
+    }
+  
+   .info{
+    width: 24.3rem !important;
+   }
+     .content-text-title{
+        font-size: 1rem !important;
+    }
+  
+    .features p{
+        font-size: 0.9rem !important;
+    }
+    
+     .price{
+         width: 85vw!important;
+         margin-left: -0.1rem !important ;
+     }
+     .small-text-title{
+         width: 85vw !important;
+              margin-left: 1.1rem !important ;
+      }
+    
+
+     .butns-cloths,.butns-clips,.butns-magics,.butns-nerdwaxs{
+         font-size: 0.7rem  ;
+     }
+     .nerdwa,.magic,.cli,.clot{
+         font-size: 0.8rem;
+         }
+         .nav-btn{
+            margin-left: -1.5rem!important;
+        }
+     .small-nerdwax{
+         width: 22rem !important;
+         height: 25.625rem !important;
+     }
+/* clip */
+.small-clip{
+    width: 20rem!important;
+    height: 13.875rem;
+    margin-top: 4rem!important;
+    margin-left: 9rem!important;
+
+}
+.small-clip-details-info{
+    font-size: 1rem;
+    margin-left: -0.5rem!important;
+   
+}
+ }
+
+ @media only screen and (max-width: 375px){
+    /* first page */
+    .first-img{
+        width: 29.8rem !important;
+        height: 25.625rem  ;
+        margin-left: -6.85rem !important;
+    }
+   
+    .info{
+        margin-left: -4.3rem;
+        width: 24.05rem!important;
+     }
+     .price{
+        width: 85vw !important;
+        margin-left: -0.1rem !important ;
+     }
+     .small-text-title{
+        width: 85vw !important;
+             margin-left: 1.1rem !important ;
+     }
+/* second page */
+.price p{
+    font-size: 1.1rem;
+}
+.shipping{
+    font-size: 0.8rem!important;
+}
+/* second page */
+.clot{
+    font-size: 0.85rem!important;
+}
+/* nerdwax */
+   
+.small-nerdwax{
+    width: 12rem!important;
+    height: 24.875rem!important;
+    margin-left: -0.9rem!important;
+    }
+    
+    .small-product-details-info{
+    /* display: unset; */
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+    
+    }
+    /* nerdwax end */
+     /* magic drops */
+   .small-magic-drops{
+    width: 10rem;
+    height: 18.875rem;
+   }
+    .small-magic-details-info{
+        display: unset;
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        font-size: 0.9rem;
+        
+        }
+        .small-magic-details-info{
+            display: none;
+            }
+            /* magic drops end */
+/* clip */
+.small-clip{
+    width: 18rem;
+    height: 13.875rem;
+    margin-left: 7rem!important;
+}
+.small-clip-details-info{
+    font-size: 0.9rem;
+    margin-left: 1rem;
+}
+/* end clip */
+/* cloth */
+.small-cloth{
+    width: 15rem;
+    height: 15rem;
+    margin-left: -0.5rem!important;
+    margin-top: 1rem;
+    }
+    .small-cloth-product-details-text{
+        font-size: 0.9rem;
+        margin-top: 1rem;
+        margin-left: 0.3rem;
+    }
+    /* end cloth */
+ }
+
+ @media only screen and (max-width: 360px){
+    .title{
+        margin-left: -2rem!important;
+    }
+    .first-img{
+        width: 29rem !important;
+        height: 20.625rem !important ;
+        margin-left: -7rem !important;
+    }
+    .content-text-title{
+        font-size: 0.95rem !important;
+    }
+    .info{
+        margin-left: -4.3rem;
+        width: 23.1rem!important;
+     }
+   
+     .small-text-title{
+        margin-left: 1rem!important;
+     }
+
+     /* clip */
+.small-clip{
+    width: 18rem;
+    height: 13.875rem;
+    margin-left: 9.5rem!important;
+    margin-top: 4.5rem!important;
+}
+.small-clip-details-info{
+    font-size: 0.9rem;
+    margin-left: -0.1rem!important;
+}
+/* end clip */
+.small-cloth-product-details-text,.small-magic-details-info,.small-product-details-info{
+    font-size: 0.9rem!important;
+}
+ }
+ @media only screen and (max-width: 320px){
+    /* first page */
+     .first-img{
+         width: 26.45rem !important;
+         height: 20.625rem !important;
+         margin-left: -6.9rem !important;
+     }
+         .content-text-title{
+             font-size: 0.8rem !important;
+         }
+       
+         .features p{
+             font-size: 0.8rem !important;
+         }
+         .info,.info2{
+            margin-left: -4.35rem;
+            width: 20.75rem!important;
+         }
+         .price{
+            margin-top: 0.625rem;
+            border-top-style: solid;
+            border-width:thin;
+            width: 85vw!important;
+            margin-left: -0.1rem !important;
+        }
+       
+        /* second page */
+       .small-more-details{
+        margin-left: 0.8rem!important;
+       }
+       .small-text-title{
+        width: 85vw !important;
+             margin-left: 0.25rem !important ;
+     }
+         .nav-btn{
+            margin-left: -5rem!important;
+         }
+         .nerdwa,.magic,.cli,.clot{
+            font-size: 0.7rem!important;
+             }
+       /* nerdwax */
+   
+.small-nerdwax{
+    display: unset;
+    width: 8rem!important;
+    height: 20.875rem!important;
+    margin-left: -0.9rem;
+    }
+    
+    .small-product-details-info{
+    display: unset;
+    margin-top: 1.5rem;
+    margin-left: 0.5rem;
+    font-size: 0.8rem!important;
+    
+    }
+    /* nerdwax end */
+     /* magic drops */
+   .small-magic-drops{
+    width: 10rem;
+    height: 18.875rem;
+   }
+    .small-magic-details-info{
+        display: unset;
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        font-size: 0.8rem!important;
+        
+        }
+        .small-magic-details-info{
+            display: none;
+            }
+            /* magic drops end */
+/* clip */
+.small-clip{
+    width: 15rem!important;
+    height: 13.875rem!important;
+    margin-top: 2.5rem!important;
+}
+.small-clip-details-info{
+    font-size: 0.8rem!important;
+    margin-left: 1rem;
+}
+/* end clip */
+/* cloth */
+.small-cloth{
+    width: 15rem;
+    height: 15rem;
+    margin-left: -0.5rem;
+    margin-top: 1rem;
+    }
+    .small-cloth-product-details-text{
+        font-size: 0.8rem!important;
+        margin-top: 1rem;
+        margin-left: 0.3rem;
+    }
+    /* end cloth */
+ }
+
+ @media only screen and (max-width: 1024px){
+    .first-img{
+        width: 45.375rem ;
+        height: 37.875rem;
+        margin-left: -10rem ;
+       
+    }
+    .btn{
+        background-color: rgb(231, 213, 18);
+        color: white;
+        border-style: none;
+        padding-top: 0.738rem;
+        padding-bottom: 0.738rem;
+        padding-left: 7.25rem ;
+        padding-right: 7.25rem;
+        border-radius: 0.313rem;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    .btns{
+        background-color: white;
+        border: unset;
+        font-weight: 600;
+        font-size: 0.8rem ;
+       
+    } 
+  
+ /* nerdwax */
+   
+ .nerdwax{
+    width: 40.375rem !important;
+    height: 30.875rem !important;
+    margin-left: 1rem;
+   
+}
+
+.product-details-info{
+    margin-top: 4rem !important;
+    margin-left: -18.75rem;
+    font-size: 0.9rem !important;
+}
+.product-details,.cloth-product-details,.clip-product-details,.magic-product-details{
+    display: flex;
+    justify-content: center;
+}
+
+.details-description1{
+    margin-top: 1rem !important;
+    
+}
+.details-description4{
+    margin-top: 1rem;
+    
+}
+.details-description5,.magic-description3{
+    padding-top: 0.05rem;
+    font-weight: 800;
+    
+}
+
+/* magic drops */
+.magic-drops{
+    width: 38.375rem !important;
+    height: 23.875rem !important;
+    margin-left: 1rem !important;
+   
+}
+.magic-details-info{
+    margin-top: 3.5rem;
+    font-size: 0.9rem!important;
+
+}
+
+
+.magic-description1{
+margin-top: 1rem !important;
+}
+
+/* clip product style */
+.clip-product-details{
+    margin-top: -1rem !important;
+}
+.clip{
+    width: 37.375rem;
+    height: 18.875rem;
+    margin-left: 1rem;
+   
+}
+.clip-details-info{
+    font-size: 0.9rem!important;
+   
+}
+
+.clip-description1{
+margin-top: 1.8rem !important;
+}
+
+/* cloth */
+.cloth-product-details{
+    margin-top: 1rem !important;
+}
+.cloth{
+    width: 40.375rem !important;
+    height: 20.875rem !important;
+    margin-left: 1rem !important;
+   
+}
+.cloth-details-info{
+    margin-top: 3rem !important;
+    font-size: 0.9rem!important;
+}
+
+.cloth-description1{
+margin-top: -0.5rem !important;
+}
+.cloth-description3{
+    margin-top: 0.9rem !important;
+    font-weight: 800;
+    }
+
+}
+
+     @media only screen and (max-width: 834px){
+
+    
+    .title h1{
+       margin-left: 2rem ;
+        
+    }
+    .title p{
+       margin-left: 2rem ;
+    
+    }
+    .first-img{
+        width: 40.375rem ;
+        height: 32.875rem ;
+        margin-left: -11rem;
+       
+    }
+    
+    .content-text{
+        margin-left: 1.188rem ;
+    }
+
+    .content-text-title{
+        font-size: 0.9rem ;
+    }
+    .info{
+       font-size: 0.9rem ;
+    
+    }
+    .features p{
+        font-size: 0.8rem ;
+    }
+    .price{
+        margin-top: 1.5rem;
+       width: 35vw ;
+    }
+    
+  
+    .btn{
+        background-color: rgb(231, 213, 18);
+        color: white;
+        border-style: none;
+        padding-top: 0.738rem !important;
+        padding-bottom: 0.738rem !important;
+        padding-left: 5.25rem ;
+        padding-right: 5.25rem;
+        border-radius: 0.313rem;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    /* first page end */
+    
+    /* more detaile page */
+    
+    .text-title{
+        margin-top: 1rem ;
+        margin-left: 6rem ;
+        width: 75vw;
+    }
+    .btns{
+        background-color: white;
+        border: unset;
+        font-weight: 600;
+        font-size: 0.69rem ;
+       
+    } 
+   
+   
+
+    }
+        
+    @media only screen and (max-width: 810px){
+        .btn{
+            background-color: rgb(231, 213, 18);
+            color: white;
+            border-style: none;
+            padding-top: 0.538rem;
+            padding-bottom: 0.538rem;
+            padding-left: 5.25rem ;
+            padding-right: 5.25rem;
+            border-radius: 0.313rem;
+            font-size: 1rem;
+            font-weight: 700;
+        }
+        .price{
+            margin-top: -0.3rem;
+        }
+        .btns{
+            background-color: white;
+            border: unset;
+            font-weight: 600;
+            font-size: 0.65rem ;
+           
+        } 
+    }
+    
+    
+    
